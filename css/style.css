@@ -1,7 +1,7 @@
-#sidebar{
+.sidebar{
   background-color: lightblue;
 }
 
-#topbar{
-  background-color: lightblue;
+.topbar{
+  background-color: blue;
 }

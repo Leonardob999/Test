@@ -1,3 +1,8 @@
 #sidebar{
   background-color: lightblue;
 }
+
+#topbar{
+  background-color: lightblue;
+  display: inline;
+}

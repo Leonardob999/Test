@@ -25,9 +25,6 @@ summary::-webkit-details-marker {
 .sidebar{
   width: 30%;
   background-color: blue;
-  position: absolute;
-  top: 80px;
-  left: 0;
   border: 3px solid #73AD21;
   }
 

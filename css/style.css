@@ -1,41 +1,23 @@
-.sidebar{
-  background-color: lightblue;
-  width: 30%;
+details {
+  user-select: none;
 }
 
-.topbar{
-  background-color: blue;
+details>summary span.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s;
+  margin-left: auto;
 }
 
-a:link, a:visited, a:hover, a:active{
-text-decoration: none;
-color: black;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 30px;
+details[open] summary span.icon {
+  transform: rotate(180deg);
 }
 
-aside {
-  display: block;
-}
-
-.collapsible {
-  background-color: #777;
-  color: white;
+summary {
+  display: flex;
   cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
 }
-​
-.active, .collapsible:hover {
-  background-color: #555;
-}
-​
-.content {
-  padding: 0 18px;
+
+summary::-webkit-details-marker {
   display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
+}

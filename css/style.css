@@ -31,3 +31,6 @@ summary::-webkit-details-marker {
 .sidebardetail{
  background-color: purple;
 }
+ul{
+  list-style-type: none;
+}

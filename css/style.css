@@ -30,6 +30,7 @@ summary::-webkit-details-marker {
 
 .sidebardetail{
  background-color: purple;
+  list-style-type: square;
 }
 .ul{
   list-style-type: square;

@@ -21,3 +21,11 @@ summary {
 summary::-webkit-details-marker {
   display: none;
 }
+
+.sidebar{
+  background-color: blue;
+  }
+
+.sidebardetail{
+ background-color: purple;
+}

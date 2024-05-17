@@ -16,16 +16,29 @@ details[open] summary span.icon {
 summary {
   display: flex;
   cursor: pointer;
+  color: white;
 }
 
 summary::-webkit-details-marker {
   display: none;
 }
 
+summary:before {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
 .sidebar{
   width: 30%;
   background-color: blue;
   border: 3px solid #73AD21;
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  vertical-align: top;
   }
 
 .sidebardetail{
@@ -38,22 +51,15 @@ summary::-webkit-details-marker {
 .content{
   display: inline-block;
 }
-a:link {
+li a{
   color: white;
   text-decoration: none;
 }
-
-a:visited {
-  color: white;
+a{
+  color: blue;
   text-decoration: none;
 }
 
-a:hover {
-  color: white;
-  text-decoration: none;
-}
-
-a:active {
-  color: white;
-  text-decoration: none;
+details p{
+  color:white;
 }

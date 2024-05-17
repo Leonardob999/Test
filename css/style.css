@@ -35,6 +35,6 @@ summary::-webkit-details-marker {
 .ul{
   list-style-type: none;
 }
-div.bodydiv div{
-	float:left;
+div{
+display:inline-block;
 }

@@ -35,6 +35,3 @@ summary::-webkit-details-marker {
 .ul{
   list-style-type: none;
 }
-.sidebar, .content{
-display:inline-block;
-}

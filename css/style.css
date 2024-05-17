@@ -37,4 +37,5 @@ summary::-webkit-details-marker {
 }
 a{
   color: white;
+  text-decoration: none;
 }

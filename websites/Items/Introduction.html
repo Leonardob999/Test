@@ -7,22 +7,96 @@
     <title>Introduction</title>
 </head>
 <body>
-    <p>How to register your Item is in Init/Item</p>
+    <div class="sidebar">
+		<ul class="ul">
+			<li>
+				<a href="../" target="_self">Home</a>
+			</li>
+			<li>
+				<a href="../websites/GettingStarted" target="_self">Getting Started</a>
+			</li>
+			<li>
+				<details>
+					<summary>
+						Init
+					</summary>
+					<p>
+					<ul class="sidebardetail">
+						<li>
+							<p> Blocks </p>
+						</li>
+						<li>
+							<p> Items </p>
+						</li>
+					</ul>
+			</li>
+			<li>
+				<details>
+					<summary>
+						Blocks
+					</summary>
+					<p>
+					<ul class="sidebardetail">
+						<li>
+							<p><a href="../websites/Blocks" target="_self">Introduction</a> </p>
+						</li>
+						<li>
+							<p> Blockstates </p>
+						</li>
+					</ul>
+					</p>
+				</details>
+			</li>
+
+			<li>
+				<details>
+					<summary>
+						Data Generators
+					</summary>
+					<p>
+					<ul class="sidebardetail">
+						<li>
+							<a href="../websites/Datagen" target="_self">Introduction</a>
+						</li>
+						<li>
+							<a href="../websites/GettingStarted.html" target="_self">Item Model Provider</a>
+						</li>
+					</ul>
+					</p>
+				</details>
+			</li>
+		</ul>
+	</div>
+
+  <div class="content">
+
+    <p>How to register you ür Block is in Init/Blocks</p>
     
     <h1>Basic Items</h1>
     	<p>This is for simple Items that not need special Abilities like Diamonds or Sticks.</p>
-    <h2>requiredFeatures</h2>
-    	<p>Strength controls the hardness of a Block. For Example Stone has a hardness of 1.5 and dirt 0.5.
-      The Block is unbreakable if strenght is -1.0.
-    	</p>
-    <h2>durability</h2>
-    	<p>Sets the durability of an Item.</p>
-    <h2>setNoRepair</h2>
-      <p>Defines if the Item is repairable or not.</p>
-    <h2>stacksTo</h2>
-      <p>Sets the max Stack Size</p>
-    <h2>craftRemainder</h2>
-    	<p>Sets this item’s container item, the way that lava buckets give you back an empty bucket when they are used.</p>
+
+      <table>
+        <tr>
+          <th>Methode</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><code>setNoRepair</code></td>
+          <td>Defines if the Item is repairable or not.</td>
+        </tr>
+        <tr>
+          <td><code>durability</code></td>
+          <td>Sets the durability of an Item.</td>
+        </tr>
+        <tr>
+          <td><code>stacksTo</code></td>
+          <td>Sets the max Stack Size</td>
+        </tr>
+        <tr>
+          <td><code>craftRemainder</code></td>
+          <td>Sets this item’s container item, the way that lava buckets give you back an empty bucket when they are used.</td>
+        </tr>
+      </table>
       
 	<h1>Advanced Items</h1>
     <p>The Item Properties allows only basic Items.
@@ -32,5 +106,6 @@
     </p>
     
     <h1>Creative Tabs</h1>
+  </div>
 </body>
 </html>

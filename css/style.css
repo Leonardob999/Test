@@ -27,7 +27,7 @@ summary:before {
   content: '\002B';
   color: white;
   font-weight: bold;
-  float: right;
+    float: left;
   margin-left: 5px;
 }
 
@@ -39,7 +39,6 @@ summary:before {
   position: relative;
   top: 0px;
   vertical-align: top;
-  float: left;
   }
 
 .sidebardetail{

@@ -39,6 +39,7 @@ summary:before {
   position: relative;
   top: 0px;
   vertical-align: top;
+  float: left;
   }
 
 .sidebardetail{
@@ -50,6 +51,7 @@ summary:before {
 }
 .content{
   display: inline-block;
+  float: right;
 }
 li a{
   color: white;

@@ -51,7 +51,6 @@ summary:before {
 }
 .content{
   display: inline-block;
-  float: right;
 }
 li a{
   color: white;

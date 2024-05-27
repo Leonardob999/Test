@@ -50,6 +50,7 @@ summary:before {
 }
 .content{
   display: inline-block;
+    width: 30%;
 }
 li a{
   color: white;

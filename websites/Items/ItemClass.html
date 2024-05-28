@@ -69,16 +69,39 @@
 	</div>
 
   <div class="content">
-<pre><code>
-				
-    public class CrystalItem extends Item {
-    	public CrystalItem(Properties pProperties) {
+			<h1>Custom Item Class</h1>
+			<p>Custom item classes are used to make advanced items.
+				For Example your item can check for rightclicking and run an action.
+			</p>
+			
+			<h2>Methods</h2>
+			
+			<p>Use @Override in front of a method to declair that you override a method of the item class</p>
+			
+			<h3>Right Click Behavior</h3>
+			<pre>@Override
+								public InteractionResultHolder<ItemStack> use(Level world, Player player, InteractionHand hand) {
+    					return super.use(world, player, hand);
+								}
+			</pre>
+			
+			<h3>Tool tips</h3>
+			<pre>@Override
+								public void appendHoverText(ItemStack stack, @Nullable Level worldIn, List<Component> tooltip, TooltipFlag flagIn) {
+    					tooltip.add(Component.literal("[your tool tip]"));
+									
+									super.appendHoverText(stack, worldIn, tooltip, flagIn);
+									}
+			</pre>
+			<h2>Basic Setup</h2>
+<pre>
+    public class [Your Items name] extends Item {
+    	public [Your Items name](Properties pProperties) {
         	super(pProperties); // After pProperties you can add propertiy Settings. For Example pProperties.stacksTo(10);
     	}
 
    // here you can override methods of the Item Class.
 }
-</code>
 </pre>
   </div>
 </body>

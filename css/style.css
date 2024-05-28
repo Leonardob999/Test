@@ -50,7 +50,7 @@ summary:before {
 }
 .content{
   display: inline-block;
-    width: 30%;
+    width: 70%;
 }
 li a{
   color: white;
@@ -81,4 +81,9 @@ table {
 code {
 	background-color: #dddddd;
   color: red;
+}
+
+pre { 
+background-color: #dddddd;
+border: 1px solid #7d828a;
 }
